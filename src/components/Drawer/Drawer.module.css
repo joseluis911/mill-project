@@ -1,0 +1,28 @@
+.Drawer{
+    background-color: #3D3DB7;
+    position: fixed;
+    top: 84px;
+    z-index: 500;
+    height: 100vh;
+    width: 220px;
+    left: 0px;
+    transition: left .5s cubic-bezier(0.820, 0.085, 0.395, 0.895);
+    padding: 30px 30px;
+    color: #fff;
+   
+}
+
+.Inactive {
+    left: -280px;
+  }
+
+.Logo{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: stretch;
+   justify-content: space-between;
+}
+
+.Logo > div {
+   
+}

@@ -1,0 +1,107 @@
+.Carrousel{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.Slider{
+    width: inherit;
+    height: inherit;
+}
+.Slide1{
+    background: url('../../images/JPG/Home-blue.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 0px;
+    
+}
+
+.Slide2{
+    background: url('../../images/JPG/Home-green.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 0px;
+}
+
+.Slide3{
+    background: url('../../images/JPG/Home-peach.jpg');
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 0px;
+}
+
+
+.Section__Header{
+    margin-bottom: 0px;
+}
+
+.Title__Box{
+    border-bottom: 1px solid #ffffff;
+}
+
+.Title__Box > h2{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: .6rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+   
+}
+
+.Title__Box >  h2 span{
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.Slogan{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Button__Box{
+   position: absolute;
+   bottom: 30px;
+   left: 50%;
+   transform: translateX(-50%);
+}
+
+.Section__WithBackground{
+  
+    background-color:#2424B2;
+    color: #ffffff;
+    height: 50vh;
+    padding: 60px;
+    text-align: center;
+    position: relative;  
+   
+}
+
+@media(min-width: 769px){
+
+    .Slide1{
+        
+        height: 800px;
+        background-position-y: -10px;
+       
+    }
+    
+    .Slide2{
+        height: 800px;
+        background-position-y: -10px;
+    }
+    
+    .Slide3{
+        height: 800px;
+        background-position-y: -10px;
+    }
+    .Section__Header{
+        display: none;
+    }
+
+    .Slogan{
+        display: none;
+    }
+    .Button__Box{
+        display: none;
+    }
+}

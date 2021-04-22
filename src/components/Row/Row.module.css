@@ -1,0 +1,14 @@
+.Row{
+ display: flex;
+}
+
+.Row__OnlyDesktop{
+    display: none;
+}
+
+
+@media(min-width: 769px){
+    .Row__OnlyDesktop{
+        display: flex;
+    }
+}

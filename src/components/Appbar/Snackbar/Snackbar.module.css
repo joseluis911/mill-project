@@ -1,0 +1,14 @@
+.Snackbar{
+    border: 1px solid #3D3DB7;
+    height: 30px;
+    width: 35px;
+    border-radius: 5px;
+  
+}
+
+.Snackbar > div {
+    width: 25px;
+    height: 1px;
+    margin: 7px 6px;
+    background-color: #3D3DB7;
+}

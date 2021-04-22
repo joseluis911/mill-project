@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #585857;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+.Title{
+  font-weight: 300;
+  line-height: 0;
+  z-index:200;
+}
+
+.Title__strong{
+  font-weight: 700;
+ 
+  
+ 
+}
+
+.Title__medium{
+  
+  font-size: 1.8rem;
+}
+
+
+.Title__big{
+  
+  font-size: 2.5rem;
+}
+
+.Text__blue{
+  color: #3D3DB7;
+  font-weight: bolder;
+}
+
+
+.Text__white{
+  color: #ffffff;
+  
+}
+
+.Title__huge{
+  font-size: 4.7rem;
+}
+

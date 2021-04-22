@@ -1,0 +1,70 @@
+
+.Login {
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    border: 1px solid #3D3DB7;
+    background-color: #FFFFFF;
+    color: #3D3DB7;
+}
+
+.Primary {
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #FFFFFF;
+    border: 1px solid #3D3DB7;
+    background-color: #3D3DB7;
+}
+.Secondary{
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #50D897;
+    background-color: #50D897;
+}
+
+.Rose{
+    border-radius: 100px;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    border: 1px solid #FC7770;
+    background-color: #FC7770;
+}
+
+
+@media(min-width: 768px){
+    .Login{
+        border-color: #FFFFFF;
+        color: #FFFFFF;
+        background-color: transparent;
+    }
+
+    .Primary{
+        border-radius: 100px;
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px 40px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        color: #FFFFFF;
+        border: 1px solid #3D3DB7;
+        background-color: #3D3DB7;
+    }
+
+
+}

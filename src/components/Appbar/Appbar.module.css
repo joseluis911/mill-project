@@ -1,0 +1,41 @@
+.Appbar{
+    height: 10vh;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.Button__Box_GetStarted{
+        display: none;
+}
+@media(min-width: 768px){
+    .Appbar{
+       position: fixed;
+       display: flex;
+       align-items:center;
+       justify-content: space-between;
+       width: 100%;
+       z-index: 200;
+       min-width: 80%;
+       
+
+    }
+
+    .LogoImage{
+        display: none;
+    }
+    .Button__Box{
+        display: flex;
+        align-items: center;
+        padding: 0px 20px
+    }
+
+    .Button__Box > div {
+        margin: 0px 20px;
+    }
+
+    .Button__Box_GetStarted{
+        display: block;
+}
+  
+}

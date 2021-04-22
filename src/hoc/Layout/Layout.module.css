@@ -1,0 +1,7 @@
+.Layout{
+    background-color: #ffffff;
+    padding: 0px;
+    display: flex;
+    flex-flow: column;
+    box-sizing: border-box;
+}

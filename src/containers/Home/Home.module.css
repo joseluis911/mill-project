@@ -1,0 +1,354 @@
+.Section__Header {
+    margin-bottom: 0px;
+}
+
+.Title__Box>h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 1.1rem;
+    text-decoration: underline;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.Title__Box>h2 span {
+    font-size: 40px;
+    font-weight: 100;
+}
+
+.Slogan {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Button__Box {
+    margin: 20px 0px;
+    
+}
+
+.Section__WithBackground {
+    background-color: #2424B2;
+    color: #ffffff;
+    height: 50vh;
+    padding: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.Section__WithBackground::before {
+    content: "";
+    background: url('../../images/SVG/heart_orange.svg');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 70px;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Section__WithBackground_small {
+    background-color: #2424B2;
+    color: #ffffff;
+    height: 30vh;
+    padding: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.Section__WithBackground_small::before {
+    content: "";
+    background: url('../../images/SVG/milligram_city.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.2;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+.Footer__Section {
+    border-bottom: 1px solid #3d3db7;
+    text-align: left;
+    padding-bottom: 20px;
+    width: 100%;
+
+
+}
+
+.Footer__section_title {
+    text-align: left;
+}
+
+.Footer__section_title>h3 {
+    color: #3d3db7;
+    line-height: 0.2rem;
+    font-size: 20px;
+}
+
+.Footer__section_box {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.Footer__section_row {
+    width: 100%;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
+
+.Footer__row {
+    display: flex;
+}
+
+.Footer__column {
+    display: flex;
+    flex-flow: column;
+    margin-right: 10px;
+    justify-content: flex-end;
+}
+
+.Footer__icon {
+    margin-right: 20px;
+    height: 40px;
+}
+
+.Column__Box_centered {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 40px;
+    left: 120px;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 40px 0px;
+  
+}
+
+.Button__Box_bottom {
+    margin-top: 100px;
+}
+
+.Column__Box {
+    margin-bottom: 30px;
+    
+}
+
+.Title__Big {
+    font-size: 50px;
+}
+
+.Desktop__MeetMilligram_Section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    top: 0px;
+    left: 120px;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    
+}
+
+.Desktop__MeetMilligram_SectionRigth {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: relative;
+    top: 90px;
+    right: 120px;
+    flex-flow: column;
+    flex-wrap: wrap;
+    padding: 40px;
+    
+}
+
+.ModernClinicSection{
+    background-color: #E3FBEB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 40px 30px 0px 30px;
+}
+
+.ModernPharmacySection{
+    background-color: #eef4fc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+    padding: 40px 30px 0px 30px;
+}
+
+.Text__OnlyDesktop{
+    display: none;
+}
+
+@media(min-width: 769px){
+    .DisplayNoneDesktop{
+        display: none;
+    }
+
+    .SimpleSteps__Box{
+       
+        width: 100%;
+        height: 100vh;
+        position: relative;
+
+    }
+
+    .SimpleSteps__Title_Box{
+       
+        position: absolute;
+        top: 25%;
+        left: 15%;
+    }
+
+    .SimpleSteps__Card_Box{
+        position: absolute;
+        top: 50%;
+        left: 15%;
+        display: flex;
+        width: 80%;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .SimpleStep__Card{
+        display: flex;
+    }
+
+    .SimpleStep__Card_Content{
+       
+    }
+
+    .SimpleStep__Card_ImageBox{
+        display: flex;
+    }
+
+    .SimpleStep__Card_Image{
+        margin-right: 45px;
+        
+    }
+
+    .ArrowRight__Box{
+      
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+
+    .Section__WithBackground {
+        background-color: #2424B2;
+        color: #ffffff;
+        height: 100vh;
+        padding: 30px;
+        text-align: center;
+        position: relative;
+        
+    }
+
+    .Section__WithBackground::before {
+        content: "";
+        background: url('../../images/SVG/heart_orange.svg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-y: 60%;
+        background-position-x: 30%;
+        opacity: .5;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    .Section__Heart_Box{
+        position: absolute;
+        top: 250px;
+        left: 15%;
+        transform: translateX(-0%);
+        
+        text-align: left;
+       
+    }
+
+    .Heart__Box_Title{
+        background-color: red;
+     
+    }
+
+    .Heart__Box_SubTitle > h2{
+    
+        line-height: 1.2rem;
+    }
+
+    .Section__City_Box{
+        position: absolute;
+        display: flex;
+        width: 80%;
+        bottom: 0;
+        right: 50%;
+        transform: translateX(50%);
+
+    }
+
+    .Section__WithBackground_small {
+        display: none;
+ 
+    }
+
+    .Text__OnlyMobile{
+        display: none;
+    }
+
+    .Footer__Section {
+      
+        border-bottom: none;
+        margin: 10px;
+        border-right: 1px solid #fff;
+        display: flex;
+        flex-flow: column;
+        width: 30%;
+        height: 300px;
+
+     
+    }
+
+    .Footer__section_box{
+       
+      
+    }
+    .Footer__section_row{
+        
+       
+        display: flex;
+        flex-flow: row;
+        width: 100%;
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    .Footer__row {
+      
+        text-align: center;
+    }
+
+    
+    
+}

@@ -1,0 +1,21 @@
+.NavigationItem {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.NavigationItem > a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.Item{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+
+
+
